@@ -59,7 +59,7 @@ void mode_setup(byte num) {
       case 4: // wave
         wave_animation_init();
         break;
-      case 5: // scroll text "Titchaino"
+      case 8: // scroll text "Titchaino"
         scroll_text_init();
         break;
       case 6: //
@@ -68,7 +68,7 @@ void mode_setup(byte num) {
       case 7: //
         fountain_init();
         break;
-      case 8: //
+      case 5: //
         gravity_init();
         break;
     }
@@ -194,7 +194,7 @@ void loop() {
       case 4:
         wave_animation();
         break;
-      case 5:
+      case 8:
         scroll_text();
         break;
       case 6:
@@ -203,10 +203,9 @@ void loop() {
       case 7:
         fountain();
         break;
-      case 8:
+      case 5:
         gravity();
         break;
     }
   }
 }
-
