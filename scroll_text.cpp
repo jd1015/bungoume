@@ -15,7 +15,7 @@ static iFont iFont;
 
 //const unsigned char text[]="Hello world!  \xCA\xDB\xB0\xDC\xB0\xD9\xC4\xDE! \xEA\xFB\xB0\xFC\xB0\xF9\xE4\xDE! \x81\x83\x84\x80   ";
 //const unsigned char text[]="\xE1\x8F\xE1\x8C\x92\xB0\xE9  \x80 \x80        "; // Titchaino
-const unsigned char text[] ="Hello world! Titchaino ";
+const unsigned char text[] ="presented by leprachaun. special thanks ikkei Electronics, sugai, sakamoto, and shimura.";// TODO：最後のuraが出力されない
 
 static byte w_cnt = 0;
 static byte t_cnt = 0;
