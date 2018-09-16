@@ -7,7 +7,7 @@
 #ifndef heartbeat_h
 #define heartbeat_h
 
-extern const unsigned int heart[2][8];
+extern const unsigned int heart[3][8];
 
 void heartbeat_init();
 void heartbeat();

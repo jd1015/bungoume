@@ -84,7 +84,7 @@ void random_fade(){
     randomSeed(seed); // seed == 0 : invalid
     for (byte y=0; y<8; y++){
       for (byte x=0; x<16; x++){
-        iLedSign.Set(x, y, bitRead(heart[0][y], 15-x) & (random(0,THMAX) < th));
+        iLedSign.Set(x, y, bitRead(heart[2][y], 15-x) & (random(0,THMAX) < th));
       }
     }
   }
